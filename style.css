@@ -1,0 +1,193 @@
+
+:root{
+    --info: saddlebrown;
+    --warning: gold;
+    --error: firebrick;
+    --success: forestgreen;
+    --primary: #D9946C;
+    --secondary: #591202;
+    --palette3: #395059;
+    --palette4: #8C592B;
+    --palette5: #A86648;
+    --light: floralwhite;
+    --dark: black;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-principal:  "Viaoda Libre", serif;
+    --font-family-secundaria:  "Love Ya Like A Sister", cursive;
+}
+
+body{
+    background-image: url(fondocafemorning.png);
+    background-size: cover;
+    background-position: center;
+    background-color: floralwhite;
+    background-attachment: fixed;
+}
+
+.Inicio{
+    background-image: url(header.png) ;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px;
+}
+
+h1{
+    font-family: var(--font-family-secundaria);
+    background-image: url(tiza_blanca_textura.png);
+    background-clip: text;
+    -webkit-background-clip: text; /* Compatibilidad para navegadores WebKit */
+    -webkit-text-fill-color: transparent; /* Hace el color del texto transparente para mostrar la textura */
+    color: black; /* Establece un color base para el texto */
+    font-size: 100px;
+    position: center;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.overlay{
+    background-image: url('unnamed.jpg');
+    display: inline-block;
+    height: auto;
+    border-style: groove;
+    border-color: #8C592B;
+    border-width: 10px;
+    padding: 40px 50px 60px 50px;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: var(--font-family-secundaria);
+    font-size: 3em;
+}
+h3{
+    font-family: var(--font-family-secundaria);
+    font-size: 2em;
+
+}
+.MENU {
+    position: fixed; 
+    top: 0;
+    left: 0;       
+    width: 100%;   
+    z-index: 1000;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+.grid-item {
+    position: relative;
+    
+}
+
+section:first-of-type {
+    margin-top: 100px; 
+}
+.flex-menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(4, 350px);
+    gap: 15px;
+    white-space: nowrap;
+    top: 100%; 
+    right: 0;
+    z-index: 1001; 
+    
+}
+
+.MiMenu {
+    border-radius: 5%;
+    border-style: double;
+    border-color: antiquewhite;
+    font-family: var(--font-family-principal);
+    background-image: url(hyperrealistic\ close.png);
+    color:antiquewhite;
+    font-size: 3em;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    
+    
+}
+
+li {
+    border-radius: 5%;
+    list-style-type: none;
+    flex: 1;
+    border-style: double;
+    border-color: antiquewhite;
+    font-family: var(--font-family-principal);
+    background-image: url(hyperrealistic\ close.png);
+    color:antiquewhite;
+    width: 300px;
+    font-size: 2.5em;
+    padding: 5px;
+    
+}
+
+section{
+       background-color: rgba(255, 250, 240, 0.7);
+       text-align: center;
+       padding: 40px 50px 40px 50px;
+}
+footer{
+    background-image: url(hyperrealistic\ close.png);
+    color: antiquewhite;
+    padding: 40px 50px 60px 50px;
+}
+p{
+    font-family: var(--font-family-principal);
+    font-size: 2em;
+}
+.flex-menu a{ color: antiquewhite;}
+
+form {
+    font-family: var(--font-family-principal);
+    font-size: 2em; 
+}
+input{
+  font-size: 1em;
+  font-family: var(--font-family-principal);
+}
+
+textarea {
+  font-size: 1em;
+  font-family: var(--font-family-principal);
+
+}
+button{
+  font-size: 1em;
+  font-family: var(--font-family-secundaria);
+  font-style: italic;
+  background-image: url(hyperrealistic\ close.png);
+  color: antiquewhite;
+  border-style: outset;
+}
+
+
+.Contact a{color: var(--palette3);}
+
+img{
+    border-style: double;
+    border-color: #591202;
+    overflow: hidden;
+    width: 500px; 
+    height: 500px;   
+    align-content: center;
+
+}
