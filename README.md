@@ -1,51 +1,70 @@
-Cafetería Morning - Pre Entrega
+☕ Cafetería Morning: Un Sitio Web Responsivo
 
-Descripción
+Descripción del Proyecto
 
-Cafetería Morning es un sitio web ficticio creado como proyecto de pre entrega. Simula la página de una cafetería con enfoque visual, mostrando productos, testimonios y un formulario de contacto funcional mediante Formspree.
+Cafetería Morning es un proyecto de desarrollo front-end creado como pre-entrega. Simula un sitio web completo para una cafetería ficticia, enfocado en la aplicación práctica de HTML semántico y técnicas avanzadas de CSS3 para lograr un diseño moderno y totalmente responsivo.
+El diseño es visualmente atractivo, con una paleta de colores cálidos, tipografías personalizadas y una estructura optimizada para cualquier dispositivo.
 
-El diseño combina tipografías personalizadas, overlays con bordes estilizados y colores cálidos, con un menú fijo y galería de imágenes.
+Requisitos de la Pre-Entrega (Rúbrica)
 
-Características
+Este proyecto cumple con todos los puntos obligatorios de la evaluación, demostrando un dominio de la estructura y el diseño responsivo.
 
-Menú fijo y desplegable.
+Estructura Básica HTML              ✅ Cumplido      Uso de etiquetas semánticas (header, nav, main, section, footer) y archivo README.md.
 
-Secciones: Inicio, Sobre Nosotros, Productos, Testimonios y Contacto.
+Formulario de Contacto              ✅ Funcional     Incluye formulario completo (nombre, email, mensaje) con envío de datos gestionado por Formspree.
 
-Formulario de estrellas interactivo para opiniones.
+Estilos Básicos con CSS             ✅ Cumplido      Archivo externo style.css, aplicación de Google Fonts, y propiedades de background (imágenes, colores y texturas).
 
-Formularios funcionales usando Formspree.
+Diseño Responsivo (Flexbox/Grid)    ✅ Avanzado      Uso de Flexbox en Productos, Grid en Reseñas y Media Queries específicas para el formulario de contacto.
 
-Imágenes responsive y efectos visuales en títulos y overlays.
+Contenido Multimedia y Navegación   ✅ Cumplido     Inclusión de imágenes responsive y una lista desordenada (ul) como menú de navegación interna con enlaces funcionales.
 
-Uso de Google Fonts y iconos de Flaticon uIcons.
-
-Tecnologías
-
-HTML5 – Estructura del sitio
-
-CSS3 – Estilos, variables CSS, Flexbox
-
-Formspree – Envío de formularios sin backend
-
-Google Fonts – Tipografías personalizadas
-
-Flaticon uIcons – Iconos de menú y redes
-
-Instalación
-
-Clonar o descargar el repositorio:
-
-git clone https://github.com/tuusuario/cafeteria-morning.git
+Subida y Hosting                    ✅ Cumplido      Proyecto alojado en un repositorio público de GitHub y publicado en GitHub Pages.
 
 
-Abrir index.html en un navegador moderno.
+🚀 Implementaciones Técnicas Destacadas
 
-Verificar que todas las imágenes estén en la carpeta raíz.
+Además de los requisitos básicos, se han incorporado las siguientes características para mejorar la calidad y la experiencia de usuario:
 
-Los formularios ya están configurados para enviar datos a Formspree; puedes reemplazar los action con tu propio endpoint si lo deseas.
+Flexbox Avanzado en Productos: La galería de productos se organiza con Flexbox, 
+permitiendo que las cards se ajusten dinámicamente en filas o columnas según el espacio disponible.
 
-Autor
+Grid Layout en Reseñas: Se utilizó CSS Grid para estructurar los testimonios de forma estética y coherente, optimizando la presentación de múltiples opiniones.
 
-María de la Paz Cerpa
-Proyecto personal de pre entrega – sitio web ficticio.
+Media Queries Específicas: El diseño de la sección de contacto utiliza Media Queries para asegurar que el formulario sea accesible y tenga un diseño limpio en todos los dispositivos móviles y de escritorio.
+
+Botones y Vínculos: Se agregaron botones estilizados para las llamadas a la acción (Call-to-Action) y los enlaces sociales. 
+
+Formulario de Opiniones: Inclusión de un componente de calificación por estrellas interactivo en la sección de testimonios.
+
+
+🛠️ Tecnologías
+
+HTML5: Estructura semántica.
+
+CSS3: Estilos, Variables CSS, Flexbox, CSS Grid, Media Queries.
+
+Formspree: Manejo del endpoint de los formularios.
+
+Google Fonts & Flaticon uIcons: Fuentes e iconos personalizados.
+
+
+💡 Visualizar y Clonar
+
+Puedes ver el proyecto en vivo y explorar el código fuente.
+
+Sitio Publicado (GitHub Pages)		https://mariawkpazcerpa-lang.github.io/Cafeteria-morning/
+Repositorio GitHub					https://github.com/mariawkpazcerpa-lang/Cafeteria-morning
+
+Instalación Local
+
+Para descargar y ejecutar este proyecto en tu entorno local:
+# 1. Clona el repositorio
+git clone https://github.com/mariawkpazcerpa-lang/Cafeteria-morning.git
+
+# 2. Navega al directorio del proyecto
+cd Cafeteria-morning
+
+# 3. Abre el archivo index.html en tu navegador
+# (O usa la extensión Live Server si estás en VS Code)
+📜 Autor y LicenciaDesarrollador: María de la Paz CerpaEste proyecto está bajo la Licencia MIT.
