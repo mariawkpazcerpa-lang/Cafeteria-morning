@@ -391,5 +391,15 @@ button{
         height: 3em; 
         padding: 0 10px;
     }
+    .MiMenu {
+        font-size: 1.5em;
+        padding: 0.1em 0.5em;
+    }
+    .Flex-container button {
+        width: 2.5em;
+    }
+    .flex-menu {
+        gap: 5px;
 }
+
 
