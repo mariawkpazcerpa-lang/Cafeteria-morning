@@ -12,13 +12,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Viaoda+Libre&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-chubby/css/uicons-thin-chubby.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
         >
     </head>
     <body>
+        
         <nav class="MENU">
+            <div class="logo-conteiner"> <img src="logo-morning.png" alt="Morning-logo"></div>
             <div class="grid-container">
+                <button><i class="fi fi-tr-shopping-cart-heart"></i></button>
                 <details class="grid-item">
-                <summary class="MiMenu" disabled uled> <i class="fi fi-tc-menu-burger"></i> Menú</summary>
+                <summary class="MiMenu" disabled> <i class="fi fi-tc-menu-burger"></i> Menú</summary>
                 <ul class="flex-menu">
                     <li value="Home"><a href="#Home"> Home</a> </li>
                     <li value="About"><a href="#About">Sobre nosotros</a> </li>
@@ -32,11 +36,13 @@
         <header class="Inicio" id="Home">
             <div class="overlay">
             <h1>~Café Morning~</h1>
+            <img src="logo header.png">
+
             </div>
         </header>
         
         <main>
-            <section id="About">
+            <section id="About" class="About">
                 <h2>Sobre Nosotros</h2>
                 <p>
                     En Morning creemos que cada mañana merece comenzar con una buena taza de café y un momento de calma. 
@@ -55,17 +61,60 @@
                 <img src="sobre-nosotros2.png">
                 <img src="sobre-nosotros3.png">
             </section>
-            <section id="Products">
+            <section id="Products" class="Products">
                 <h2>Productos</h2>
-                    <img src="productos.png">
-                    <img src="productos1.png"><br>
-                    <img src="productos2.png">
-                    <img src="productos3.png"><br>
-                    <img src="productos3.png">
-                    <img src="productos5.png">
- 
+                <div class="Productos">
+                    <div class="producto">
+                        <img src="productos.png">
+                        <h6>Cupcake relleno varios sabores</h6>
+                        <p>Cupcake rellenos cubierto de crema.
+                        </p> <br>
+                        <p class="precio"></p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="productos1.png">
+                        <h6>Cupcake relleno varios sabores</h6>
+                        <p>Cupcake rellenos cubierto de crema.
+                        </p> <br>
+                        <p class="precio"></p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="productos2.png">
+                        <h6>Cupcake relleno varios sabores</h6>
+                        <p>Cupcake rellenos cubierto de crema.
+                        </p> <br>
+                        <p class="precio"></p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="productos3.png">
+                        <h6>Cupcake relleno varios sabores</h6>
+                        <p>Cupcake rellenos cubierto de crema.
+                        </p> <br>
+                        <p class="precio"></p>
+                        <button>Agregar al carrito </button>
+                    </div>
+                    <div class="producto">
+                        <img src="productos4.png">
+                        <h6>Cupcake relleno varios sabores</h6>
+                        <p>Cupcake rellenos cubierto de crema.
+                        </p> <br>
+                        <p class="precio"></p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="productos5.png">
+                        <h6>Cupcake relleno varios sabores</h6>
+                        <p>Cupcake rellenos cubierto de crema.
+                        </p> <br>
+                        <p class="precio"></p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
             </section>
-            <section id="Feedback">
+            <section id="Feedback" class="Feedback">
                 <h2>Testimonios</h2>
                 <img src="Opiniones1.jpg">
                 <img src="Opiniones2.jpg"><br>
