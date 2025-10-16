@@ -18,7 +18,9 @@
     --font-family-principal:  "Viaoda Libre", serif;
     --font-family-secundaria:  "Love Ya Like A Sister", cursive;
 }
-
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url(fondocafemorning.png);
     background-size: cover;
@@ -385,4 +387,9 @@ button{
     padding: 80px;
     overflow: hidden;
     }
+    .MENU {
+        height: 3em; 
+        padding: 0 10px;
+    }
 }
+
