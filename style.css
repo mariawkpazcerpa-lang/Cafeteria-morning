@@ -34,12 +34,13 @@ body{
     position: relative;
     display: flex;
     width: 100%;
-    height: 700px;
+    height: 25em;
     background-position: center;
     text-align: center;
     align-items: flex-start;
     justify-content: center;
     padding: 100px;
+    overflow: hidden;
 }
 
 h1{
@@ -49,23 +50,31 @@ h1{
     -webkit-background-clip: text; /* Compatibilidad para navegadores WebKit */
     -webkit-text-fill-color: transparent; /* Hace el color del texto transparente para mostrar la textura */
     color: black; /* Establece un color base para el texto */
-    font-size: 100px;
+    font-size: 4.3em;
     position: center;
     margin: 0;
     line-height: 1.2;
+    text-shadow: 
+        0 0 5px antiquewhite,
+        0 0 10px rgba(255, 255, 255, 0.4); 
 }
 
 .overlay{
     background-image: url('unnamed.jpg');
+    background-position: center;
+    align-items: center;
     display: inline-block;
     height: auto;
     border-style: groove;
     border-color: #8C592B;
     border-width: 10px;
-    padding: 40px 50px 60px 50px;
+    padding: 20px 50px 10px 50px;
     border-radius: 10px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
 }
-
+.overlay img{
+    width: 10em;
+}
 h2{
     font-family: var(--font-family-secundaria);
     font-size: 3em;
@@ -79,8 +88,16 @@ h3{
     position: fixed; 
     top: 0;
     left: 0;       
-    width: 100%;   
+    width: 100%;
+    height: 6em;   
     z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(hyperrealistic\ close.png);
+    background-size: cover;
+    border-style: outset;
+    border-color: antiquewhite;
 }
 
 .grid-container{
@@ -93,7 +110,6 @@ h3{
     position: relative;
     
 }
-
 section:first-of-type {
     margin-top: 100px; 
 }
@@ -112,19 +128,25 @@ section:first-of-type {
 
 .MiMenu {
     border-radius: 5%;
-    border-style: double;
+    border-style: inset;
     border-color: antiquewhite;
     font-family: var(--font-family-principal);
-    background-image: url(hyperrealistic\ close.png);
     color:antiquewhite;
     font-size: 3em;
     padding: 10px;
     display: block;
-    cursor: pointer;
-    
-    
+    cursor: pointer;  
 }
 
+.logo-conteiner {
+    width: 6em;
+    overflow: hidden;
+}
+.logo-conteiner img{
+    width: 100%;
+    filter: drop-shadow(0 6em 0 #FAEBD7 );
+    transform: translateY(-6em);
+}
 li {
     border-radius: 5%;
     list-style-type: none;
@@ -139,11 +161,15 @@ li {
     padding: 5px;
     
 }
+.flex-menu a{ color: antiquewhite;}
 
 section{
        background-color: rgba(255, 250, 240, 0.7);
+       background-position: center;
        text-align: center;
-       padding: 40px 50px 40px 50px;
+       padding: 40px 20px 40px 20px;
+       justify-self: unset;
+       
 }
 footer{
     background-image: url(hyperrealistic\ close.png);
@@ -154,7 +180,7 @@ p{
     font-family: var(--font-family-principal);
     font-size: 2em;
 }
-.flex-menu a{ color: antiquewhite;}
+
 
 form {
     font-family: var(--font-family-principal);
@@ -182,7 +208,38 @@ button{
 
 .Contact a{color: var(--palette3);}
 
-img{
+.Products img{
+    border-style: double;
+    border-color: #591202;
+    overflow: hidden;
+    width: 15em; 
+    height: auto;   
+    align-content: center;
+    border-radius: 1em;
+}
+.producto{
+    border-style: double;
+    border-radius: 5px;
+    border-color: #8C592B;
+    width: 17em;
+    height: auto;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.Productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.7em;
+
+}
+
+.producto h6{
+    font-size: 1em;
+}
+.producto p, .producto buttom{
+    font-size: 0.7em;
+}
+
+.Feedback img, .About img{
     border-style: double;
     border-color: #591202;
     overflow: hidden;
