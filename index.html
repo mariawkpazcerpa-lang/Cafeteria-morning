@@ -13,14 +13,13 @@
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-chubby/css/uicons-thin-chubby.css'>
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
-        >
     </head>
     <body>
         
         <nav class="MENU">
             <div class="logo-conteiner"> <img src="logo-morning.png" alt="Morning-logo"></div>
-            <div class="grid-container">
-                <button><i class="fi fi-tr-shopping-cart-heart"></i></button>
+            <div class="Flex-container">
+                <button><i class="fi fi-tr-cart-arrow-down"></i></button>
                 <details class="grid-item">
                 <summary class="MiMenu" disabled> <i class="fi fi-tc-menu-burger"></i> Menú</summary>
                 <ul class="flex-menu">
@@ -36,7 +35,7 @@
         <header class="Inicio" id="Home">
             <div class="overlay">
             <h1>~Café Morning~</h1>
-            <img src="logo header.png">
+            <img src="logo header.png" class="logo-header">
 
             </div>
         </header>
@@ -66,61 +65,62 @@
                 <div class="Productos">
                     <div class="producto">
                         <img src="productos.png">
-                        <h6>Cupcake relleno varios sabores</h6>
-                        <p>Cupcake rellenos cubierto de crema.
+                        <h6>Dúo de Cupcakes Artesanales</h6>
+                        <p>Dos deliciosos cupcakes: uno de chocolate con frosting de café o caramelo y chispas,<br> y otro de vainilla con vibrante frosting de frutos rojos.<br><br> Perfectos para un dulce capricho a la hora del desayuno.
                         </p> <br>
-                        <p class="precio"></p>
+                        <p class="precio">$3000</p>
                         <button>Agregar al carrito</button>
                     </div>
                     <div class="producto">
                         <img src="productos1.png">
-                        <h6>Cupcake relleno varios sabores</h6>
-                        <p>Cupcake rellenos cubierto de crema.
+                        <h6>Café en Grano "Morning Blend" y Latte</h6>
+                        <p>Disfruta de la calidad en casa. <br> Incluye una bolsa de nuestro exclusivo blend de café tostado "Morning Blend" y una taza de nuestro cremoso Latte, decorado con arte.<br> (Ideal para ofrecer como un pack o café para llevar + bolsa de café).
                         </p> <br>
-                        <p class="precio"></p>
+                        <p class="precio">$8000</p>
                         <button>Agregar al carrito</button>
                     </div>
                     <div class="producto">
                         <img src="productos2.png">
-                        <h6>Cupcake relleno varios sabores</h6>
-                        <p>Cupcake rellenos cubierto de crema.
+                        <h6>Tazas de Café Reutilizables Ecológicas</h6>
+                        <p>Tazas de café reutilizables, perfectas para llevar. <br>Diseño elegante de bambú o material sostenible con una banda de agarre personalizada.<br> Contribuye al planeta con estilo.
                         </p> <br>
-                        <p class="precio"></p>
+                        <p class="precio">$10000</p>
                         <button>Agregar al carrito</button>
                     </div>
                     <div class="producto">
                         <img src="productos3.png">
-                        <h6>Cupcake relleno varios sabores</h6>
-                        <p>Cupcake rellenos cubierto de crema.
+                        <h6>Cesta de Galletas con Chispas de Chocolate</h6>
+                        <p>Galletas recién horneadas, suaves por dentro y ligeramente crujientes por fuera, cargadas con chispas de chocolate.<br> Se entregan en una cesta con una bolsa de nuestro café tostado.
                         </p> <br>
-                        <p class="precio"></p>
+                        <p class="precio">$15000</p>
                         <button>Agregar al carrito </button>
                     </div>
                     <div class="producto">
                         <img src="productos4.png">
-                        <h6>Cupcake relleno varios sabores</h6>
-                        <p>Cupcake rellenos cubierto de crema.
+                        <h6>Porción de Torta de Zanahoria Clásica</h6>
+                        <p>Esponjosa y húmeda torta de zanahoria con especias, <br>cubierta con un cremoso frosting de queso. <br>Un clásico reconfortante con un toque crujiente en la cima.
                         </p> <br>
-                        <p class="precio"></p>
+                        <p class="precio">$5000</p>
                         <button>Agregar al carrito</button>
                     </div>
                     <div class="producto">
                         <img src="productos5.png">
-                        <h6>Cupcake relleno varios sabores</h6>
-                        <p>Cupcake rellenos cubierto de crema.
+                        <h6>Iced Latte Refrescante</h6>
+                        <p>Bebida fría a base de espresso y leche, servida con hielo. <br><br>Nada como un latte helado para iniciar el día. La combinación perfecta de dulzura y cafeína para refrescar tu día.
                         </p> <br>
-                        <p class="precio"></p>
+                        <p class="precio">$5000</p>
                         <button>Agregar al carrito</button>
                     </div>
                 </div>
             </section>
             <section id="Feedback" class="Feedback">
                 <h2>Testimonios</h2>
+                <div class="Feedbackimg">
                 <img src="Opiniones1.jpg">
-                <img src="Opiniones2.jpg"><br>
+                <img src="Opiniones2.jpg">
                 <img src="Opiniones3.jpg">
-                <img src="Opiniones4.jpg"><br>
-
+                <img src="Opiniones4.jpg">
+                </div>
                 <h3>Tu Testimonio</h3>
                 <form action="https://formspree.io/f/xldpnwrq" method="post" autocomplete="on">
                     <label for="nombre">Nombre: </label>
@@ -157,9 +157,9 @@
                 <h3><u>Mensaje</u></h3>
                 <form action="https://formspree.io/f/xeolbanr" method="post" autocomplete="on">
                     <label for="nombre">Nombre: </label>
-                    <input type="text" id="nombre" name="nombre"> <br>
+                    <input type="text" id="nombre" name="nombre">
                     <label for="email">Email:  </label>
-                    <input type="email" id="email" name="email"><br>
+                    <input type="email" id="email" name="email">
                     <textarea  name="mensaje" rows="10" cols="50" maxlength="500" placeholder="Escribe tu consulta."></textarea><br>
                     <button>Enviar</button>
                 </form>
